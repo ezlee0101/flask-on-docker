@@ -2,6 +2,7 @@ This repository contains a Dockerized Flask web application with PostgreSQL, Gun
 
 ![Demo GIF](https://github.com/ezlee0101/flask-on-docker/blob/main/screenshot.gif)
 
+```
 # Build and start the containers
 docker-compose up -d --build
 
@@ -10,3 +11,4 @@ docker ps
 
 # Access the Flask app
 http://localhost:8080
+```
